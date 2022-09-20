@@ -33,7 +33,8 @@ class Vector(Module):
         self: represents instance of a 'Vector' class
         data: data to be stored
         """
-        self.data = list(map(float, data)) if isinstance(data, int) else data
+        
+        self.data = data
         self.shape = self.find_shape(data)
 
     def __repr__(self):

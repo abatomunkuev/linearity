@@ -34,3 +34,7 @@ v.shape
 
 ## Log
 - 20 Sep 2022 - created Vector class, added 3 methods: __repr__, __len__, and defined a function which finds the shape of the vector
+
+## TODO
+- Add float type conversion when creating a vector
+- Allow user to choose the data type (optional)
